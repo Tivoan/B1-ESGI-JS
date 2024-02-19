@@ -11,3 +11,4 @@
 ```bash
 yo man
 ```
+## // signifie commentaire en JS
