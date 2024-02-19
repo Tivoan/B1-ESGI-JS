@@ -9,9 +9,17 @@
 ### git add . permet de add donc de confirmer les fichiers que l'on veut sauvegarder
 ## on peut faire ```bash puis ``` apres pour initialiser une ligne de texte qui permettra de mettre une ligne de code (ou sh) ex : 
 ```bash
-yo man
+Comment ca vaux
 ```
 ## // signifie commentaire en JS
 # Sélectionner des éléments.
 
 ## let element = document.getElementById("myId");
+# Changer le texte
+## document.getElementById("monId").textContent = "NouveauTexte!"
+# Changer le html interne 
+## document.getElementById("MonId").InnerHTML = "<span>NVContenu</span>">
+# Modifier les Styles
+## 
+# Ecouter et Réagir aux événements
+## document.getElementById("mon bouton").addEventListener("click", function (){ alert("boutoncliqué!");})
