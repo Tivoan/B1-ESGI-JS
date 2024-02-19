@@ -4,3 +4,10 @@
 ### Installation de live server qui permet de lancer nos documents en local host 
 ### << document.getElementById("title").textContent = "Texte modifié"; >> 
 ### Cela permet de prendre dans le document de base avec l'id de classe comme en css le mot clé title et change le texte en "Texte Modifié"
+### git init : initialise le contenu que l'on veut git
+### git status : on connait maintenant le status du git ainsi que les fichiers initialiser
+### git add . permet de add donc de confirmer les fichiers que l'on veut sauvegarder
+## on peut faire ```bash puis ``` apres pour initialiser une ligne de texte qui permettra de mettre une ligne de code (ou sh) ex : 
+```bash
+yo man
+```
