@@ -12,3 +12,6 @@
 yo man
 ```
 ## // signifie commentaire en JS
+# Sélectionner des éléments.
+
+## let element = document.getElementById("myId");
