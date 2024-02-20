@@ -6,7 +6,31 @@
     <title>Calculette</title>
 </head>
 <body>
-    <h1 id = "titre"> Calculette </h1>
+    <form action="" method="get">
+        <button class="nbr" value="1" onclick="afficher(1)">1</button> 
+        <button class="nbr" value="2" onclick="afficher(2)">2</button> 
+        <button class="nbr" alue="3" onclick="afficher(3)">3</button> 
+        <button class="opP" value="+" onclick="afficherP()">+</button> 
+        <button class="opM" value="-" onclick="afficherM()">-</button> 
+    </br>
+        <button class="nbr" value="4" onclick="afficher(4)">4</button> 
+        <button class="nbr" value="5" onclick="afficher(5)">5</button> 
+        <button class="nbr" value="6" onclick="afficher(6)">6</button> 
+        <button class="opM" value="*" onclick="afficherF()">*</button> 
+        <button class="opD" value="/" onclick="afficherD()">/</button> 
+    </br>
+        <button class="nbr" value="7" onclick="afficher(7)">7</button> 
+        <button class="nbr" value="8" onclick="afficher(8)">8</button> 
+        <button class="nbr" value="9" onclick="afficher(9)">9</button> 
+        <button class="opE" value="=" onclick="afficherE()">=</button>
+
+    </br>
+    <input class="input is-large" type ="text" id="finit">
+    </form>
+    
+
+
+
     <script src="index.js"></script>
 </body>
 </html>

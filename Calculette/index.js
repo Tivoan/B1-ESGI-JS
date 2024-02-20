@@ -1,4 +1,4 @@
-//camelcase
-const monTitre = document.getElementById("titre");
+function afficher(val) {
+    document.getElementById("finit").value += val;
+}
 
-console.log(monTitre)
