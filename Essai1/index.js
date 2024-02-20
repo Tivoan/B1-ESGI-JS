@@ -8,3 +8,7 @@ changerTitre();
 var test = "test"; // var est interdit dans les cours
 let test2 = "test2"; // variable qui peut être déclaré une seule fois
 const test3 ="test3"; // In-modifiable
+//camelcase
+const monTitre = document.getElementById("titre");
+
+console.log(monTitre)
