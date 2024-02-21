@@ -7,11 +7,7 @@ const result = document.getElementById("result")
 
 form.onsubmit = (event) => {
     event.preventDefault();
-}
-console.log("valeur de l'élement selectionné", nbr1.value)
-console.log("valeur de l'élement selectionné", nbr2.value)
-
-switch (select.value){
+    switch(select.value){
     case "add":
     result.innerText = Number(nbr1.value)+Number(nbr2.value)
     break;
@@ -24,4 +20,4 @@ switch (select.value){
     case "div":
     result.innerText = Number(nbr1.value)/Number(nbr2.value)
     break;
-}
+    }   }
