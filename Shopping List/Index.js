@@ -1,6 +1,6 @@
 function Ajout(NewFruit){
     Basket.push(NewFruit)
-    document.getElementById("result").innerHTML = Basket + "<br>" ;
+    document.getElementById("result").innerHTML = Basket + "</br>" ;
 
     switch(NewFruit){
         case 'Banana':
