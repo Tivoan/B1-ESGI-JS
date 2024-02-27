@@ -20,9 +20,22 @@ let promesse = new Promise((Resolve,Reject) => {
             reject("Opération échouée")
         }
     })
+const promise = fetch("link")
+promise 
+    .then((response)=> {
+        console.log("reponse body: " response.body)
+        return response.json()
+    })
+    .then((data)=>{
+        console.log("data: ",data)
+    })
+    .catch((error)=>{
+        console.log("error: ", error)
+    })
+
+
 ```
 ## Then catch and Finally for Promesse
 .then() : s'éxecute si la promesse est résolue avec succès.
 .catch() : s'éxecute si la promesse est résolue avec rejetée
 .finnaly() :s'éxecute si la promesse est résolue avec rejetée ou facée
-
