@@ -23,3 +23,7 @@ Comment ca vaux
 ## 
 # Ecouter et Réagir aux événements
 ## document.getElementById("mon bouton").addEventListener("click", function (){ alert("boutoncliqué!");})
+# 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
+# https://github.com/Tivoan/B1-ESGI-JS.git
+# https:// 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@github.com/Tivoan/B1-ESGI-JS.git
+Le lien avec le token au millieu et un @ la fin
