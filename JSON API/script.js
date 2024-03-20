@@ -50,6 +50,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         filmDetailsElement.innerHTML += `<p><strong>Nom des Personnages :</strong> ${characterNames.join(", ")}</p>`;
     }
-
     afficherListeFilms();
 });
